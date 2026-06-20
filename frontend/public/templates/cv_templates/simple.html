@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  @page { size: A4; margin: 40px 50px 30px 50px; }
+  body { margin:0; padding:0; font-family: Arial, sans-serif; color: #1a1a1a; background:#fff; }
+</style>
+</head>
+<body>
+
+<!-- NAME -->
+<p style="font-family:Arial; font-size:24pt; font-weight:900; text-transform:uppercase; letter-spacing:3px; margin:0 0 3px 0; color:#111;">{{ name }}</p>
+<p style="font-family:Arial; font-size:11pt; color:#555; margin:0 0 6px 0;">{{ job_title }}</p>
+<hr style="border:none; border-top:2px solid #999; width:180px; margin:0 0 8px 0;"/>
+
+<!-- CONTACT RIGHT AFTER NAME -->
+<p style="font-family:Arial; font-size:10pt; color:#555; margin:0 0 20px 0;">{{ email }} &nbsp;|&nbsp; {{ phone }} &nbsp;|&nbsp; {{ location }}</p>
+
+<!-- SKILLS -->
+<p style="font-family:Arial; font-size:11pt; font-weight:bold; text-transform:uppercase; letter-spacing:2px; color:#111; margin:0 0 6px 0;">Skills</p>
+<hr style="border:none; border-top:1px solid #ccc; margin:0 0 8px 0;"/>
+<p style="font-family:Arial; font-size:10pt; color:#333; line-height:1.7; margin:0 0 16px 0;">{{ skills }}</p>
+
+<!-- EXPERIENCE -->
+<p style="font-family:Arial; font-size:11pt; font-weight:bold; text-transform:uppercase; letter-spacing:2px; color:#111; margin:0 0 6px 0;">Experience</p>
+<hr style="border:none; border-top:1px solid #ccc; margin:0 0 8px 0;"/>
+<p style="font-family:Arial; font-size:10pt; color:#333; line-height:1.7; margin:0 0 16px 0;">{{ experience }}</p>
+
+<!-- EDUCATION -->
+<p style="font-family:Arial; font-size:11pt; font-weight:bold; text-transform:uppercase; letter-spacing:2px; color:#111; margin:0 0 6px 0;">Education</p>
+<hr style="border:none; border-top:1px solid #ccc; margin:0 0 8px 0;"/>
+<p style="font-family:Arial; font-size:10pt; color:#333; line-height:1.7; margin:0 0 16px 0;">{{ education }}</p>
+
+<!-- PROFILE -->
+<p style="font-family:Arial; font-size:11pt; font-weight:bold; text-transform:uppercase; letter-spacing:2px; color:#111; margin:0 0 6px 0;">Profile</p>
+<hr style="border:none; border-top:1px solid #ccc; margin:0 0 8px 0;"/>
+<p style="font-family:Arial; font-size:10pt; color:#333; line-height:1.7; margin:0 0 16px 0;">{{ profile }}</p>
+
+<!-- PROJECTS -->
+<p style="font-family:Arial; font-size:11pt; font-weight:bold; text-transform:uppercase; letter-spacing:2px; color:#111; margin:0 0 6px 0;">Projects</p>
+<hr style="border:none; border-top:1px solid #ccc; margin:0 0 8px 0;"/>
+<p style="font-family:Arial; font-size:10pt; color:#333; line-height:1.7; margin:0;">{{ projects }}</p>
+
+</body>
+</html>

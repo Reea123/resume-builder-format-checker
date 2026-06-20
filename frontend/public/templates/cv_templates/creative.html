@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  @page { size: A4; margin: 0; }
+  body { margin: 0; padding: 0; width: 794px; font-family: Arial, sans-serif; }
+
+  .sidebar { background-color: #2ec4a0; width: 230px; }
+  .main { background-color: #ffffff; }
+</style>
+</head>
+<body>
+
+<table width="794" cellpadding="0" cellspacing="0" border="0">
+  <tr>
+
+    <!-- LEFT SIDEBAR -->
+    <td class="sidebar" width="230" valign="top" style="background-color:#2ec4a0; padding:24px 16px 24px 20px;">
+
+      <!-- Photo -->
+      <table width="70" cellpadding="0" cellspacing="0" border="0" align="center" style="margin-bottom:20px;">
+        <tr>
+          <td width="70" height="70" align="center" valign="middle"
+              style="background-color:#5dcfb8; border:3px solid #ffffff;">
+            <font face="Arial" size="2" color="#ffffff">Photo</font>
+          </td>
+        </tr>
+      </table>
+
+      <!-- SKILLS -->
+      <p style="font-family:Arial; font-size:15pt; font-weight:bold; color:#ffffff; margin:0 0 4px 0; text-transform:uppercase; letter-spacing:1px;">SKILLS</p>
+      <hr style="border:none; border-top:1px solid rgba(255,255,255,0.6); margin:0 0 8px 0;"/>
+      <p style="font-family:Arial; font-size:11pt; color:#ffffff; line-height:1.6; margin:0 0 18px 0;">{{ skills }}</p>
+
+      <!-- EDUCATION -->
+      <p style="font-family:Arial; font-size:15pt; font-weight:bold; color:#ffffff; margin:0 0 4px 0; text-transform:uppercase; letter-spacing:1px;">EDUCATION</p>
+      <hr style="border:none; border-top:1px solid rgba(255,255,255,0.6); margin:0 0 8px 0;"/>
+      <p style="font-family:Arial; font-size:11pt; color:#ffffff; line-height:1.6; margin:0 0 18px 0;">{{ education }}</p>
+
+      <!-- CONTACT -->
+      <p style="font-family:Arial; font-size:15pt; font-weight:bold; color:#ffffff; margin:0 0 4px 0; text-transform:uppercase; letter-spacing:1px;">CONTACT</p>
+      <hr style="border:none; border-top:1px solid rgba(255,255,255,0.6); margin:0 0 8px 0;"/>
+      <p style="font-family:Arial; font-size:11pt; color:#ffffff; line-height:1.9; margin:0;">
+        @ {{ email }}<br/>
+        # {{ phone }}<br/>
+        * {{ location }}
+      </p>
+
+    </td>
+
+    <!-- RIGHT CONTENT -->
+    <td class="main" width="564" valign="top" style="background-color:#ffffff; padding:0;">
+
+      <!-- Color bar top right -->
+      <table width="564" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td width="394" height="14" style="background-color:#ffffff;">&nbsp;</td>
+          <td width="70" height="14" style="background-color:#e05c5c;">&nbsp;</td>
+          <td width="100" height="14" style="background-color:#f5c842;">&nbsp;</td>
+        </tr>
+      </table>
+
+      <!-- Content -->
+      <div style="padding:16px 28px 28px 24px;">
+
+        <p style="font-family:Arial; font-size:28pt; font-weight:bold; color:#1a1a1a; margin:0 0 4px 0; line-height:1.1;">{{ name }}</p>
+        <p style="font-family:Arial; font-size:12pt; color:#2ec4a0; font-weight:bold; text-transform:uppercase; letter-spacing:2px; margin:0 0 18px 0;">{{ job_title }}</p>
+
+        <!-- Profile -->
+        <p style="font-family:Arial; font-size:12pt; font-weight:bold; color:#2ec4a0; text-transform:uppercase; letter-spacing:1px; margin:0 0 3px 0;">PROFILE</p>
+        <hr style="border:none; border-top:2px solid #2ec4a0; margin:0 0 8px 0;"/>
+        <p style="font-family:Arial; font-size:11pt; color:#444444; line-height:1.7; margin:0 0 16px 0;">{{ profile }}</p>
+
+        <!-- Experience -->
+        <p style="font-family:Arial; font-size:12pt; font-weight:bold; color:#2ec4a0; text-transform:uppercase; letter-spacing:1px; margin:0 0 3px 0;">EXPERIENCE</p>
+        <hr style="border:none; border-top:2px solid #2ec4a0; margin:0 0 8px 0;"/>
+        <p style="font-family:Arial; font-size:11pt; color:#444444; line-height:1.7; margin:0 0 16px 0;">{{ experience }}</p>
+
+        <!-- Projects -->
+        <p style="font-family:Arial; font-size:12pt; font-weight:bold; color:#2ec4a0; text-transform:uppercase; letter-spacing:1px; margin:0 0 3px 0;">PROJECTS</p>
+        <hr style="border:none; border-top:2px solid #2ec4a0; margin:0 0 8px 0;"/>
+        <p style="font-family:Arial; font-size:11pt; color:#444444; line-height:1.7; margin:0 0 16px 0;">{{ projects }}</p>
+
+        <!-- Content Creator -->
+        <p style="font-family:Arial; font-size:12pt; font-weight:bold; color:#2ec4a0; text-transform:uppercase; letter-spacing:1px; margin:0 0 3px 0;">CONTENT CREATOR</p>
+        <hr style="border:none; border-top:2px solid #2ec4a0; margin:0 0 8px 0;"/>
+        <p style="font-family:Arial; font-size:11pt; color:#444444; line-height:1.7; margin:0;">Enthusiastic about building and sharing knowledge through creative mediums and collaborative projects.</p>
+
+      </div>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

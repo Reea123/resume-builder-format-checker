@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  @page { size: A4; margin: 0; }
+  html, body { margin: 0; padding: 0; width: 794px; font-family: Arial, sans-serif; background: #fff; }
+</style>
+</head>
+<body>
+<table width="794" cellpadding="0" cellspacing="0" border="0">
+
+  <!-- BLUE HEADER -->
+  <tr>
+    <td bgcolor="#1565C0" style="padding:28px 30px;">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td width="82" valign="middle">
+            <div style="width:74px; height:74px; background:#aac4e0; border:3px solid #fff; text-align:center; line-height:74px; font-size:11px; color:#fff;">Photo</div>
+          </td>
+          <td valign="middle" style="padding-left:16px;">
+            <p style="font-size:28px; font-weight:bold; color:#fff; text-transform:uppercase; letter-spacing:1px; margin:0 0 5px 0;">{{ name }}</p>
+            <p style="font-size:14px; color:rgba(255,255,255,0.85); margin:0;">{{ job_title }}</p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <!-- BODY -->
+  <tr>
+    <td style="padding:0;">
+      <table width="794" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+
+          <!-- LEFT -->
+          <td width="268" bgcolor="#e8edf7" valign="top" style="padding:28px 20px 28px 26px;">
+
+            <p style="font-size:13px; font-weight:bold; text-transform:uppercase; letter-spacing:2px; color:#1565C0; border-bottom:2px solid #1565C0; padding-bottom:5px; margin:0 0 10px 0;">Contact</p>
+            <p style="font-size:13px; color:#444; margin:0 0 6px 0;">* {{ location }}</p>
+            <p style="font-size:13px; color:#444; margin:0 0 6px 0;">@ {{ email }}</p>
+            <p style="font-size:13px; color:#444; margin:0 0 20px 0;"># {{ phone }}</p>
+
+            <p style="font-size:13px; font-weight:bold; text-transform:uppercase; letter-spacing:2px; color:#1565C0; border-bottom:2px solid #1565C0; padding-bottom:5px; margin:0 0 10px 0;">Skills</p>
+            <p style="font-size:13px; color:#333; line-height:1.8; margin:0 0 20px 0;">{{ skills }}</p>
+
+            <p style="font-size:13px; font-weight:bold; text-transform:uppercase; letter-spacing:2px; color:#1565C0; border-bottom:2px solid #1565C0; padding-bottom:5px; margin:0 0 10px 0;">Education</p>
+            <p style="font-size:13px; color:#333; line-height:1.8; margin:0;">{{ education }}</p>
+
+          </td>
+
+          <!-- RIGHT -->
+          <td width="526" bgcolor="#ffffff" valign="top" style="padding:28px 28px 28px 24px;">
+
+            <p style="font-size:13px; font-weight:bold; text-transform:uppercase; letter-spacing:2px; color:#1565C0; border-bottom:2px solid #1565C0; padding-bottom:5px; margin:0 0 10px 0;">Profile</p>
+            <p style="font-size:13px; color:#333; line-height:1.8; margin:0 0 22px 0;">{{ profile }}</p>
+
+            <p style="font-size:13px; font-weight:bold; text-transform:uppercase; letter-spacing:2px; color:#1565C0; border-bottom:2px solid #1565C0; padding-bottom:5px; margin:0 0 10px 0;">Experience</p>
+            <p style="font-size:13px; color:#333; line-height:1.8; margin:0 0 22px 0;">{{ experience }}</p>
+
+            <p style="font-size:13px; font-weight:bold; text-transform:uppercase; letter-spacing:2px; color:#1565C0; border-bottom:2px solid #1565C0; padding-bottom:5px; margin:0 0 10px 0;">Projects</p>
+            <p style="font-size:13px; color:#333; line-height:1.8; margin:0;">{{ projects }}</p>
+
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
